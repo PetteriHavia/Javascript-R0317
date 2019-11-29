@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+}
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#container{
+  color: white;
+}
+
+#container, p {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 15px;
+color: #FFFFFF;
+font-weight: normal;
+text-decoration: none;
+line-height: 2.2;
+}
+
+#selectTheatre{
+  text-align: center;
+  margin: auto;
+}
+
+
+#tableData{
+  width:40%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+th{
+  border-bottom: 5px solid #828282;
+  margin: 5px 5px 0px 5px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
+td{
+  padding: 25px 5px 25px 5px;
+  font-size: 20px;
+  border-bottom: 1px solid #828282;
+}
