@@ -1,0 +1,121 @@
+body{
+  background-color: #1C9F81;
+}
+
+#wrapper {
+  width: 100%;
+  margin: auto;
+
+}
+
+.main {
+  text-align: center;
+}
+
+h1{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#userInput {
+  margin: 0px 0px 10px 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 40%;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+}
+
+.inputBtn{
+  color: #000000;
+  background-color: #84DCC6;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.inputBtn:hover{
+  background-color:#1A5E63;
+  color:white;
+}
+
+#bottomDiv {
+  text-align: center;
+}
+
+.deleteBtn{
+  height: 55px;
+  width: 120px;
+  background-color: #ed8c8c;
+  color: #000000;
+  padding: 15px 0px 15px 0px;
+  margin: 10px 0px 10px 0px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.deleteBtn:hover {
+  background-color:red;
+  color:white;
+}
+
+.clearBtn{
+  height: 55px;
+  width: 120px;
+  background-color: #ed8c8c;
+  color: #000000;
+  padding: 15px 0px 15px 0px;
+  margin: 10px 0px 10px 0px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.clearBtn:hover {
+  background-color:red;
+  color:white;
+}
+
+ul {
+  width:55%;
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+
+li{
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  background: #f9f9f9;
+}
+
+ul li{
+  margin-bottom: 5px;
+}
+ul li.checked {
+  background: #84DCC6;
+  border: 2px solid #1A5E63;
+  text-decoration: line-through;
+}
+
+ul li:hover{
+  background-color:#84DCC6;
+}
+
+ul li.checked::before {
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
