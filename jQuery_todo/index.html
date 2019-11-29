@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Todo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--My CSS file-->
+  <link rel="stylesheet" href="css/todo.css">
+  <meta name="theme-color" content="#fafafa">
+  <!-- jQuery script -->
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- MY HTML -->
+
+<div id="wrapper">
+  <div class="main">
+      <h1>Small jQuery To-Do List</h1>
+    <!-- User input field -->
+    <input id="userInput" name="userInput" type ="text" placeholder="Write task here...">
+    <!-- Add button -->
+    <button id="addBtn">Add</button>
+  </div>
+    <!-- List -->
+  <div class="list">
+    <ul id="todoList"></ul>
+  </div>
+
+</div>
+
+<!-- Clear btn -->
+<div class="bottom">
+  <button class="clearBtn">Clear</button>
+  <h3>Info</h3>
+  <p>Click listed item 2 times to remove it</p>
+</div>
+
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!--My JS script-->
+  <script src = "js/todo.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
